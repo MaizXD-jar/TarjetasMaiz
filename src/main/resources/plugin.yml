@@ -1,0 +1,20 @@
+name: TarjetasMaiz
+version: '${project.version} BETA'
+main: org.tarjetasmaiz.TarjetasMaiz
+api-version: '1.19'
+author: Maiz
+description: Plugin de tarjetas amarillas y rojas para jugadores.
+
+commands:
+  tarjeta:
+    description: Da una tarjeta amarilla o roja al jugador.
+    usage: /<command> give <amarilla|roja>
+    permission: tarjetasmaiz.Give
+
+permissions:
+  tarjetasmaiz.Give:
+    description: Permite al jugador dar tarjetas.
+    default: op
+  tarjetasmaiz.Execute:
+    description: Permite al jugador usar tarjetas.
+    default: op
