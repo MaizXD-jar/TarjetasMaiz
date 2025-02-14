@@ -1,0 +1,5 @@
+language: en_us
+maxYellowCards: 2
+yellowCardCooldown: 3000  # Cooldown in milliseconds
+redCardCooldown: 3000  # Cooldown in milliseconds
+banDuration: 600000  # Ban duration in milliseconds (10 minutes)
